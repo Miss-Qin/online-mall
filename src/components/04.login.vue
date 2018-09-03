@@ -55,7 +55,8 @@ export default {
             //   设置顶部通栏右盒子内容为'会员中心'和'退出'
             this.$store.commit("changeLoginStatus", true);
             // 登录成功后返回之前的页面
-            this.$router.push(this.$store.state.fromPath);
+            // this.$router.push(this.$store.state.fromPath);
+            this.$router.go(-1);
           }
         });
     }

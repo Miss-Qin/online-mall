@@ -97,6 +97,7 @@ export default {
     let orderid = this.$route.params.orderid;
     let interId = setInterval(() => {
       // 保存定时器的Id
+      console.log(interId);
       this.$store.commit("saveInterId", interId);
       this.$axios
         .get(`/site/validate/order/getorder/${orderid}`)

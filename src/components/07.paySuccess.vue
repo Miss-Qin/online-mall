@@ -49,6 +49,7 @@ export default {
   },
   created() {
     let interId = setInterval(() => {
+        console.log(interId)
       this.$store.commit("saveInterId", interId);
       this.time--;
       if (this.time == 0) {
