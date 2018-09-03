@@ -74,7 +74,7 @@ table { border-collapse:collapse; border-spacing:0; }
     .nav-tit a{ margin-left:10px; color:#333;  }
     .nav-tit a:hover,.nav-tit a.selected{ color:#34ad2a; }
     .nav-tit i{ margin-left:10px; color:#e0e0e0; }
-.sub-tit{ margin:0 50px 10px; padding-top:35px; height:42px; border-bottom:1px solid #e0e0e0; font-size:16px; }
+.sub-tit{ margin:0 50px 10px; height:42px; border-bottom:1px solid #e0e0e0; font-size:16px; }
     .sub-tit a.add{ display:block; margin-right:10px; float:right; color:#23ac38; font-size:14px; line-height:42px; }
     .sub-tit a.add i{ display:inline-block; margin-right:5px; color:#23ac38; font-size:14px; }
     .sub-tit ul{ display:inline-block; }
@@ -108,7 +108,7 @@ table { border-collapse:collapse; border-spacing:0; }
     .header .head-nav .nav-box li a:hover{ color:#34ad2a; }
     #index .index a,#news .news a,#goods .goods a,#video .video a,#photo .photo a,#down .down a,
     .header .head-nav .nav-box li a:hover{ color:#34ad2a; }
-    .header .head-nav .search-box{ position:absolute; top:-39px; right:180px; width:22%; height:42px; overflow:hidden; _height:43px; }
+    .header .head-nav .search-box{ position:absolute; top:-39px; right:200px; width:22%; height:42px; overflow:hidden; _height:43px; }
     .header .head-nav .search-box .input-box{ position:absolute; top:0; left:0; right:65px; bottom:0; }
     .header .head-nav .search-box .input-box input{ display:block; margin:0; padding:3px 12px; width:100%; height:30px; line-height:30px; background:#333; border-bottom:1px solid #e5e5e5; color:#fff; font-size:12px; transform:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; }
     .header .head-nav .search-box .input-box input::-moz-placeholder{ color:#b3b3b3; opacity:1; }
@@ -490,7 +490,7 @@ line-height: 30px;border: 1px solid #34ad2a;}
 /*/会员登录样式*/
 
 /*会员头像容器*/
-.avatar-box{ padding:10px 15px; border-bottom:1px solid #e0e0e0; height:60px; background:#fafafa; }
+.avatar-box{ padding:0px 15px; border-bottom:1px solid #e0e0e0; height:60px; background:#fafafa; }
     .avatar-box .img-box{ position:relative; display:block; float:left; margin-right:10px; width:60px; height:60px; border-radius:60px; background:#fff; text-align:center; overflow:hidden; }
     .avatar-box .img-box img{ padding:2px; width:54px; height:54px; border:1px solid #f5f5f5; border-radius:60px; background:#fff;  }
     .avatar-box .img-box i{ color:#ccc; font-size:54px; line-height:78px; background:#fff; }
